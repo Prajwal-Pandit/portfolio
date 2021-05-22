@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
 
 
-
     <!-- ===== SWIPER CSS ===== -->
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
@@ -724,31 +723,35 @@
                     </div>
                 </div>
 
-                <form action="" class="contact__form grid">
+                <form action="https://formsubmit.co/devsushant007@gmail.com" method="POST" class="contact__form grid">
                     <div class="contact__inputs grid">
                         <div class="contact__content">
                             <label for="" class="contact__label">Name</label>
-                            <input type="text" class="contact__input">
+                            <input type="text" class="contact__input" id="Name" required>
                         </div>
                         <div class="contact__content">
                             <label for="" class="contact__label">Email</label>
-                            <input type="email" class="contact__input">
+                            <input type="email" class="contact__input" id="Email" required>
                         </div>
                     </div>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://prajwalporto.netlify.app/">
+                    <input type="hidden" name="_subject" value="New email from your website!">
                     <div class="contact__content">
-                        <label for="" class="contact__label">Project</label>
-                        <input type="text" class="contact__input">
+                        <label for="" class="contact__label">Subject</label>
+                        <input type="text" class="contact__input" id="Subject">
                     </div>
                     <div class="contact__content">
                         <label for="" class="contact__label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input" id="Message"
+                            required></textarea>
                     </div>
 
                     <div>
-                        <a href="#" class="button button--flex">
+                        <button type="submit" class="button button--flex">
                             Send Message
                             <i class="uil uil-message button__icon"></i>
-                        </a>
+                        </button>
                     </div>
                 </form>
             </div>
@@ -808,6 +811,8 @@
 
     <!-- ===== MAIN JS ===== -->
     <script src="assets/js/main.js"></script>
+
+    <!-- EMAILJS -->
 </body>
 
 </html>
