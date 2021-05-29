@@ -833,6 +833,11 @@ img{
     color: #FFF;
 }
 
+.logo_img{
+    width: 60px;
+    justify-self: center;
+}
+
 .project__img{
     width: 232px;
     justify-self: center;
