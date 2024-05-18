@@ -524,19 +524,19 @@ img{
 }
 
 .skills__js{
-    width: 50%;
+    width: 60%;
 }
 
 .skills__angular{
     width: 70%;
 }
 
-.skills__react{
-    width: 50%;
+.skills__typescript{
+    width: 70%;
 }
 
 .skills__node{
-    width: 40%;
+    width: 50%;
 }
 
 .skills__firebase{
@@ -560,7 +560,7 @@ img{
 }
 
 .skills__python1{
-    width: 30%;
+    width: 40%;
 }
 
 .skills__close .skills__list{
